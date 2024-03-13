@@ -1,0 +1,80 @@
+h1{
+    margin: 50px 0px 10px 90px;
+    font-size:7vh; 
+    color: rgb(73, 102, 192);
+    text-align: center;
+  }
+  #box{
+    background-color: aliceblue;
+    min-height: 70vh;
+    width: 77%;
+    margin: 20vh;
+    margin-top: 28vh;
+    
+  }
+  form{
+    margin-top: 5vw ;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  form input{
+    margin: 25px;
+    width: 50vw;
+    height: 5vh;
+    font-size: 3vh;
+    border-radius: 11px;
+    border: 1.7px solid black;
+  
+    
+  }
+  button{
+    margin: 20px;
+    font-size: 3vh;
+    background-color: royalblue;
+    color: aliceblue;
+    border-radius: 1vh;
+    border: 1px solid black;
+    width: 10vw; 
+    height: 5vh;
+  }
+  #model{
+    position: absolute;
+    background-color: rgba(0,0,0,0.75);
+    top: 0px;
+    left:0px;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #modelBox{
+    height: 30vh;
+    width: 65vw;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #modelBox h3 {
+    margin: 1vh;
+    font-size: 3vh;
+  }
+  #modelBox button{
+    font-size: 3vh;
+    position: absolute;
+    bottom: 57vh;
+    left: 57vw;
+    color: black;
+    background: none;
+    border-style: none;
+  }
+  i{
+    font-size: 10vh;
+  }
